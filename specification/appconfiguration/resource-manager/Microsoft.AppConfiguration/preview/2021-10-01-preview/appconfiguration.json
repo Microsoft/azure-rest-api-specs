@@ -1615,10 +1615,7 @@
         "contentType": {
           "description": "The content type of the key-value's value.\r\nProviding a proper content-type can enable transformations of values when they are retrieved by applications.",
           "type": "string",
-          "x-ms-mutability": [
-            "create",
-            "update"
-          ]
+          "default":""
         },
         "eTag": {
           "description": "An ETag indicating the state of a key-value within a configuration store.",
